@@ -34,5 +34,5 @@ type Candles struct {
 
 type CandleQueryParam struct {
 	Granularity string `json:"granularity"`
-	Count int `json:"count"`
+	Count       int    `json:"count"`
 }

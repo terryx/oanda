@@ -1,13 +1,13 @@
 package datastruct
 
 type Price struct {
-	Type string `json:"type"`
-	Time string `json:"time"`
+	Type        string `json:"type"`
+	Time        string `json:"time"`
 	CloseoutBid string `json:"closeoutBid"`
 	CloseoutAsk string `json:"closeoutAsk"`
-	Status string `json:"status"`
-	Tradeable bool `json:"tradeable"`
-	Instrument string `json:"instrument"`
+	Status      string `json:"status"`
+	Tradeable   bool   `json:"tradeable"`
+	Instrument  string `json:"instrument"`
 }
 
 type Prices struct {
@@ -19,6 +19,6 @@ type PricingParam struct {
 }
 
 type PricingResponse struct {
-	Time string `json:"time"`
+	Time   string  `json:"time"`
 	Prices []Price `json:"prices"`
 }

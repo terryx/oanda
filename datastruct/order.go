@@ -64,4 +64,3 @@ type OrderCancelResponse struct {
 	RelatedTransactionIDs []string `json:"relatedTransactionIDs"`
 	LastTransactionID     string   `json:"lastTransactionID"`
 }
-
