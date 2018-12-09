@@ -16,3 +16,9 @@ conf.json
 
 # Code Editor files
 .idea
+
+# golang output binary directory
+bin
+
+# golang vendor (dependencies) directory
+vendor
